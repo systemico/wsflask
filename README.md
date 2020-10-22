@@ -17,8 +17,8 @@ Los pasos para crear el módulo son:
 Establecer todos los requerimientos de instalacion en *requirements.txt*.
 
 ## Ejemplo de archivo requirements.txt
-Flask==1.1.2
-flask-cors
-pymysql
-requests
-datetime
+Flask==1.1.2  
+flask-cors  
+pymysql  
+requests  
+datetime  
