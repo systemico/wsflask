@@ -1,5 +1,6 @@
 from flask import Flask, request
 from module.main import module
+from config.startup import Startup
 
 application = Flask(__name__)
 # Registramos el module.

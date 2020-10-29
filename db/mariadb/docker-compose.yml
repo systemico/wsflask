@@ -1,0 +1,14 @@
+version: "3"
+services:
+    bd:
+      image: mariadb:latest
+      build: .
+      container_name: wsflask_db_mariadb
+      restart: always
+      ports:
+      - "3306:3306"
+      environment:
+      - MYSQL_DATABASE=wsflask
+      - MYSQL_USER=wsflask
+      - MYSQL_PASSWORD=wsflask
+      - MYSQL_ROOT_PASSWORD=wsflask
