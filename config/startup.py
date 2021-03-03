@@ -2,6 +2,7 @@ import os
 import os.path
 from dotenv import load_dotenv
 import json
+import logging
 
 '''Clase que permite cargar la configuracion inical de Wabot'''
 class Startup:
