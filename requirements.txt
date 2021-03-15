@@ -4,3 +4,5 @@ flask-cors
 pymysql
 requests
 datetime
+flask_sslify
+Flask-Cors
