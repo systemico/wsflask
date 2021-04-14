@@ -4,6 +4,9 @@ from dotenv import load_dotenv
 import json
 import logging
 
+ruta_base = os.path.dirname(__file__)
+logging.basicConfig(filename=ruta_base+'/wsflask.log', level=logging.DEBUG)
+
 '''Clase que permite cargar la configuracion inical de Wabot'''
 class Startup:
     '''Listado de Metodos'''

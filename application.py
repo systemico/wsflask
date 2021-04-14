@@ -27,5 +27,6 @@ def iniciar():
     return 'Bienvenidos al proyecto!'
 
 if __name__ == '__main__':
-    application.run()
     application.debug = True
+    application.run(host='0.0.0.0')
+
