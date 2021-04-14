@@ -84,6 +84,7 @@ h2 {
     }
   }
 }
+
 nav {
   position: absolute;
   height: 100%;
@@ -163,6 +164,7 @@ nav {
     }
   }
 }
+
 @media screen and (max-width:768px) {
   body {
     display:block;
