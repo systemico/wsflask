@@ -1,12 +1,13 @@
 from flask import Blueprint, render_template, abort
 from jinja2 import TemplateNotFound
 import logging
+from config.startup import Startup
+
 
 # Cambiar el single page por el nombre del modulo que se esta creando
 module = Blueprint('module', __name__,
                     template_folder='templates',
                     static_folder='static')
-
 
 @module.route('/')
 def iniciar():
