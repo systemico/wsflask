@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from module.main import module
+from api.module.main import module
 from flask_sslify import SSLify
 from flask_cors import CORS
 from config.startup import Startup
